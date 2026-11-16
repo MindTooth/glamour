@@ -30,6 +30,7 @@ const (
 	DarkStyle       = "dark"
 	DraculaStyle    = "dracula"
 	TokyoNightStyle = "tokyo-night"
+	SrceryStyle     = "srcery"
 	LightStyle      = "light"
 	NoTTYStyle      = "notty"
 	PinkStyle       = "pink"
@@ -683,6 +684,7 @@ var (
 		// Popular themes
 		DraculaStyle:    &DraculaStyleConfig,
 		TokyoNightStyle: &TokyoNightStyleConfig,
+		SrceryStyle:     &SrceryStyleConfig,
 	}
 )
 
